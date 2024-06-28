@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            height: 600px;
+            width: 60%;
+            background-color: rgba(230, 230, 250, 1)
+        }
+
+        .flex {
+            display:flex;
+            justify-content: center;
+            column-gap: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>form </h1>
+        <form>
+            <div class="flex"><label for="fname">first name</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div class="flex"><label for="lname">last name</label>
+                <input type="text" id="lname" name="lname">
+            </div>
+            <div class="flex"><label for="fathername">father name </label>
+                <input type="text" id="father name" name="father name">
+            </div>
+            <div class="flex"><label for="dob">dob </label>
+                <input type="text" id="dob" name="dob">
+            </div>
+            <div class="flex"><label for="gender">gender</label>
+                <input type="radio"   id="male" name="male" value="male" >  male
+                <input type="radio" id="female" name="female" value="female" > female   
+            </div>
+            <div class="flex"><label for="address">address </label>
+                <input type="address" id="address" name="address">
+            </div>
+            <div class="flex"><label for="pincode"> pincode</label>
+                <input type="text" id="pincode" name="pincode">
+            </div>
+            <div class="flex"><label for="email"> email</label>
+                <input type="text" id="email" name="email">
+            </div>
+            <div class="flex"><label for="phonenumber"> phone number</label>
+                <input type="text" id="phonenumber" name="phonenumber">
+            </div>
+            <div class="flex"><label for="language"> language</label>
+                <input type="radio" id="language" name="language" value="gujarati"> gujarati 
+                <input type="radio" id="language" name="language" value="hindi"> hindi
+                <input type="radio" id="language" name="language" value="english"> english
+
+
+            </div>
+           
+        </form>
+    </div>
+</body>
+
+</html>
