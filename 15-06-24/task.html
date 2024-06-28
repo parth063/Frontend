@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        .container {
+            width: 50%;
+            color: rgb(15, 15, 16);
+        }
+
+        summary {
+            list-style: none;
+        }
+
+        .summaryDesign {
+            height: 50px;
+            font-size: xx-large;
+            background-color: rgb(233, 184, 233);
+            padding: 10px;
+        }
+
+        p {
+            background-color: aqua;
+            padding: 10px;
+            margin: 0;
+        }
+
+        #top-radius {
+            border-radius: 20px 20px 0 0;
+        }
+
+        #bottom-radius {
+            border-radius: 0 0 20px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <details>
+            <summary class="summaryDesign" id="top-radius">section#1</summary>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit repellat ea vitae. Sint omnis modi minus
+                reiciendis quisquam cum nesciunt quae, pariatur aliquid dolorem ab ipsa eligendi tempora? Ad, sapiente.
+            </p>
+        </details>
+        <details>
+            <summary class="summaryDesign"> section#2</summary>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ad, fuga quo maiores beatae, optio
+                laborum commodi blanditiis a vitae velit sit quos quas impedit nostrum illum. Repudiandae, suscipit
+                debitis.
+            </p>
+        </details>
+        <details>
+            <summary class="summaryDesign" id="bottom-radius">section#3</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto neque laboriosam, ipsa velit sit quam
+                sed odio ullam animi iusto placeat distinctio tempora quae vitae quaerat in cumque impedit est.</p>
+        </details>
+    </div>
+
+
+</body>
+
+</html>
