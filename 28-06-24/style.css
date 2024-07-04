@@ -1,0 +1,32 @@
+body {
+    background-image: url(fierfoximg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+}
+.solid {
+    border: 1px solid red;
+}
+
+.dashed {
+    border: 1px dashed red;
+}
+
+.dotted {
+    border: 1px dotted red;
+}
+
+.mixed {
+    border-style: solid dotted dashed;
+    border-COLOR: red;
+}
+
+p {
+    border: 1px;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    color: pink;
+}
