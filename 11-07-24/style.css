@@ -1,0 +1,109 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .container {
+     display: flex;
+ }
+
+ .box1 {
+     /* width: 200px; */
+     /* height: 200px; */
+     background-color: black;
+     color: white;
+     text-align: center;
+     border: 2px solid brown;
+     z-index: 1;
+     font-size: xx-large;
+
+ }
+
+ .box2 {
+     /* height: 200px; */
+     /* max-height: 13rem; */
+     /* width: 200px; */
+     /* max-width: 13rem; */
+     background-color: seagreen;
+     color: white;
+     text-align: center;
+     outline: 9px solid rgb(6, 6, 6);
+     position: relative;
+     z-index: 2;
+     top: 70px;
+     right: 104px;
+     font-size: xx-large;
+ }
+
+ .box3 {
+     /* height: 200px; */
+     /* max-height: 13rem; */
+     /* width: 200px; */
+     /* max-width: 13rem; */
+     background-color: hotpink;
+     color: rgb(0, 0, 0);
+     text-align: center;
+     border: 5px solid rgb(0, 0, 0);
+     position: relative;
+     right: 161px;
+     font-size: xx-large;
+     z-index: 3;
+ }
+
+ .fixbox {
+     height: 200px;
+     /* max-height: 13rem; */
+     width: 200px;
+     /* max-width: 13rem; */
+     background-color: cornflowerblue;
+     font-size: xx-large;
+     text-align: center;
+     position: sticky;
+     bottom: 10px;
+ }
+
+ .reletiv {
+     background-color: aqua;
+     margin: 80px;
+     padding: 20px;
+     height: 300px;
+     font-size: x-large;
+     text-align: center;
+     position: relative;
+ }
+
+ .absolute {
+     position: absolute;
+     height: 150px;
+     width: 150px;
+     background-color: blue;
+     left: 60px;
+     top: 90px;
+ }
+
+ .box-2 {
+     position: absolute;
+     height: 150px;
+     width: 150px;
+     background-color: blueviolet;
+     left: 12rem;
+     top: 150px;
+ }
+ .link{
+    text-decoration: none;
+    padding: 20px;
+    position: relative;
+    left: 100px;
+    bottom: 3rem;
+ }
+ a:link, a:visited{
+    padding:20px ;
+    border: 1px solid black;
+ }
+ a:hover,a:active{
+    background-color: red;
+ } 
+ .box1,.box2,.box3{
+    height: 200px;
+    width: 200px;
+ }

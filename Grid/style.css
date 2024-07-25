@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+.header{
+    border: 1px solid rebeccapurple;
+    padding: 15px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+    border: 2px solid blue;
+}
+.col-1{width:8.33% ;}
+.col-2{width:16.66% ;}
+.col-3{width:25%;}
+.col-4{width:33.33% ;}
+.col-5{width: ;}
+.col-6{width: ;}
+.col-7{width: ;}
+.col-8{width: ;}
+.col-9{width:75% ;}
+.col-10{width: ;}
+.col-11{width: ;}
+.col-12{width: ;}
+
