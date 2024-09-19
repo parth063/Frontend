@@ -1,46 +1,4 @@
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
-    
-}
 
-.container>div {
-    margin: 5px;
-    /* border: 3px solid rgb(100, 100, 237); */
-    border-radius: 7px;
-    padding: 40px;
-    text-align: center;
-    outline: 3px solid rgb(126, 171, 255);
-}
-.a{
-    flex-basis:500px;
-    order: 1;
-}
-.b{
-    flex-basis: 310px;
-    order: 2;
-}
-.e{
-    
-    order: 3;
-}
-.c{
-    order: 4;
-}
-.d{
-    order: 5;
-    flex-basis: 309px;
-}
-@media (max-width: 320px) {
-    .a , .b , .e {
-      flex-basis: 215px;
-    }
-    .d , .c{
-        flex-basis: 50px;
-    }
-    
-  }
 
   .container2{
     display: flex;
@@ -63,3 +21,4 @@
   .nine{
     flex-basis: 114px;
   }
+  
