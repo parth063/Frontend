@@ -1,0 +1,86 @@
+
+
+#check{
+    display: none;
+}
+
+.button{
+    width: 10px;
+    height: 10px;
+    background: rgb(255, 196, 0);
+    padding: 12px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    padding-top: 5px;
+    line-height: 1px;
+    text-align: left;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+}
+.button:hover{
+    background: #ff9d00;
+}
+.button span{
+    height: 3px;
+    width: 100%;
+    background: white;
+    display: inline-block;
+    transition: all 0.5s ;
+}
+
+
+
+#check:checked ~ .button span:nth-child(1){
+    width: 100%;
+    transform: rotate(45deg) translateY(1px) translateX(1px);
+}
+#check:checked ~ .button span:nth-child(2){
+    width: 100%;
+    transform: rotate(-45deg) translateY(-2px) translateX(1px);
+}
+
+#check:checked ~ .button span:nth-child(3){
+    width: 0;
+    /* transform: rotate(-45deg) translateY(-7px) translateX(7px); */
+}
+
+
+
+
+nav{
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    background: rgb(255, 196, 0);
+    height: 0;
+   
+}
+nav a{
+    text-decoration: none;
+    color: #0c1019;
+    display: block;
+    font-size: 18px;
+    opacity: 0;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+nav a:hover{
+    background: #ffdd7f;
+}
+
+
+#check:checked ~ nav{
+    width: 100px;
+    height:210px;
+}
+
+#check:checked ~ nav a{
+    padding: 10px;
+    opacity: 1;
+  
+}
